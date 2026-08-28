@@ -1,0 +1,25 @@
+# ── Secrets & credentials (NEVER commit) ──
+# cpolar 账号令牌、隧道日志等
+logs/
+cpolar/
+*.log
+
+# ── Large media / generated output ──
+videos/
+output/
+metadata.csv
+status.json
+
+# ── Python ──
+__pycache__/
+*.pyc
+.venv/
+env/
+.temp/
+.idea/
+.vscode/
+
+# ── OS ──
+Thumbs.db
+Desktop.ini
+.DS_Store
